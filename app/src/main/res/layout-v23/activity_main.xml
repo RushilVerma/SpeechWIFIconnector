@@ -22,7 +22,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/Scan"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +51,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/button"
@@ -69,12 +67,4 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/HeaderTextView" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="609dp"
-        android:layout_height="438dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/waveform_shutterstock_720906511" />
 </androidx.constraintlayout.widget.ConstraintLayout>

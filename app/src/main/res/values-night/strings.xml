@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WIFI conection</string>
-    <string name="Scan">SCAN</string>
     <string name="wifi_connections">Wifi Connections</string>
     <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
     <string name="todo">TODO</string>
 </resources>

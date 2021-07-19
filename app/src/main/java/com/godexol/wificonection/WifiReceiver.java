@@ -20,6 +20,7 @@ class WifiReceiver extends BroadcastReceiver {
         this.wifiManager = wifiManager;
         this.wifiDeviceList = wifiDeviceList;
     }
+    @Override
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
         if (WifiManager.SCAN_RESULTS_AVAILABLE_ACTION.equals(action)) {
